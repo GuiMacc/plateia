@@ -1,0 +1,79 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#carregamento {
+    display: flex;
+    justify-content: left;
+    width: 800px;
+    margin: auto;
+}
+
+#input_zone {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exportação {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+#exportar {
+    margin-right: 150px;
+    height: auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+        margin-left: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+}
+
+#grid {
+    width: 800px;
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid div div{
+    width: 98px;
+    height: 48px;
+    border: 0.5px solid black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    cursor: move;
+}
+
+#grid div div:hover {
+    background-color: bisque;
+}
+
+#grid div div:active{
+    width: 96px;
+    height: 46px;
+    border: 2px dotted darkred;
+}
+
+#plateia > div {
+    margin: 4px;
+}

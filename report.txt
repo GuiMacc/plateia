@@ -1,0 +1,10 @@
+Consegui gravar na cache a grelha, se não houver nada na cache constrói uma grelha vazia.
+
+O botão sample simplesmente apaga o que estiver na grelha (a outra opção seria verificar todas as caixas de texto
+e apagar as que não estivessem vazias?) e faz uma grelha nova com os 3 nomes predifindos nas primeiras posições.
+
+Através de um tutorial de youtube consegui fazer uma zona de carregamento de ficheiros. Não aceita algo que não
+seja ficheiro (como os draggables criados na grelha), vários ficheiros, ou pastas. Ainda aceita ficheiros sem ser
+do tipo .txt e ainda não faz nada com o ficheiro recebido.
+
+Alguns problemas com o drag and swap. Mesmo para o primeiro passo só lá cheguei com a dica e não está fácil.

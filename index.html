@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateia VIP</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Plateia VIP</h1>
+    <div id="carregamento">
+        <label for="input_zone">Lista de VIPs</label>
+        <input id="input_zone" type="file" onchange="lerLista(event)">
+    </div>
+    <div id="grid"></div>
+    <div id="exportação">
+        <button id="bt-exportar">Exportar</button>
+        <button id="bt-copy">Copiar para Memória</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
